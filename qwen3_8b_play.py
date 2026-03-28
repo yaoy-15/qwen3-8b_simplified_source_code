@@ -9,7 +9,7 @@ from transformers import AutoTokenizer
 
 from qwen3_8b_model import Qwen3MiniConfig, Qwen3MiniForCausalLM
 
-DEFAULT_MODEL_PATH = "/ssdshare/yaoy-24/hf_cache/hub/models--Qwen--Qwen3-8B"
+DEFAULT_MODEL_PATH = "/ssdshare/yaoy-24/models/qwen3-8b"
 
 
 def normalize_eos_token_ids(eos_token_id) -> set[int]:
